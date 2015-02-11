@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Использование API &mdash; Документация loan_requests API 0.1</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Документация loan_requests API 0.1" href="../index.html" />
+    <link rel="next" title="API для типов заявок" href="request_type.html" />
+    <link rel="prev" title="Документация API" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Алфавитный указатель"
+             accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="../http-routingtable.html" title="HTTP Routing Table"
+             >routing table</a> |</li>
+        <li class="right" >
+          <a href="request_type.html" title="API для типов заявок"
+             accesskey="N">вперёд</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Документация API"
+             accesskey="P">назад</a> |</li>
+        <li><a href="../index.html">Документация loan_requests API 0.1</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="api">
+<h1>Использование API<a class="headerlink" href="#api" title="Ссылка на этот заголовок">¶</a></h1>
+<blockquote>
+<div>API для работы с заявками используется протокол <a class="reference external" href="https://ru.wikipedia.org/wiki/REST">REST</a>.</div></blockquote>
+</div>
+<div class="section" id="id1">
+<h1>Точки доступа API<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="request_type.html">API для типов заявок</a></li>
+<li class="toctree-l1"><a class="reference internal" href="request.html">API для работы с заявками</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id2">
+<h1>Аутентификация<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h1>
+<blockquote>
+<div><p>Аутентификация в системе возможна двумя способами:</p>
+<ul class="simple">
+<li>HTTP Basic Auth</li>
+<li>OAuth2</li>
+</ul>
+<p>Чтобы получить <cite>access_token</cite> для oauth2, нужно выплонить запрос на адрес:</p>
+<dl class="post">
+<dt id="post--o-token-">
+<tt class="descname">POST </tt><tt class="descname">/o/token/</tt><a class="headerlink" href="#post--o-token-" title="Ссылка на это определение">¶</a></dt>
+<dd><p>В запросе должны передаваться параметры в формате x-www-form-urlencoded:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>grant_type</strong> &#8211; <cite>password</cite>,</li>
+<li><strong>username</strong> &#8211; имя пользователя</li>
+<li><strong>password</strong> &#8211; пароль</li>
+<li><strong>client_id</strong> &#8211; client_id</li>
+<li><strong>client_secret</strong> &#8211; client_secret</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>Пример запроса с помощью <cite>curl</cite>:</p>
+<div class="highlight-python"><div class="highlight"><pre>curl -X POST -d &quot;grant_type=password&amp;client_id=&lt;client_id&gt;&amp;client_password=&lt;client_password&gt;&amp;username=&lt;user_name&gt;&amp;password=&lt;password&gt;&quot; http://&lt;server_name&gt;/o/token/
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Оглавление</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Использование API</a></li>
+<li><a class="reference internal" href="#id1">Точки доступа API</a></li>
+<li><a class="reference internal" href="#id2">Аутентификация</a></li>
+</ul>
+
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="../index.html"
+                        title="предыдущая глава">Документация API</a></p>
+  <h4>Следующий раздел</h4>
+  <p class="topless"><a href="request_type.html"
+                        title="следующая глава">API для типов заявок</a></p>
+  <h3>Эта страница</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/api/index.txt"
+           rel="nofollow">Исходный текст</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Быстрый поиск</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Искать" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Введите слова для поиска или имя модуля, класса или функции.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Алфавитный указатель"
+             >указатель</a></li>
+        <li class="right" >
+          <a href="../http-routingtable.html" title="HTTP Routing Table"
+             >routing table</a> |</li>
+        <li class="right" >
+          <a href="request_type.html" title="API для типов заявок"
+             >вперёд</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Документация API"
+             >назад</a> |</li>
+        <li><a href="../index.html">Документация loan_requests API 0.1</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2015, Марат Голявиев.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  </body>
+</html>
