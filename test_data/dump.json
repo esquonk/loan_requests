@@ -1,0 +1,2435 @@
+[
+{
+  "fields": {
+    "model": "request",
+    "name": "\u0417\u0430\u044f\u0432\u043a\u0430",
+    "app_label": "loan_requests"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "logentry",
+    "name": "log entry",
+    "app_label": "admin"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "permission",
+    "name": "permission",
+    "app_label": "auth"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "group",
+    "name": "group",
+    "app_label": "auth"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "user",
+    "name": "user",
+    "app_label": "auth"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "contenttype",
+    "name": "content type",
+    "app_label": "contenttypes"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "session",
+    "name": "session",
+    "app_label": "sessions"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "requestfield",
+    "name": "\u041f\u043e\u043b\u0435 \u0437\u0430\u044f\u0432\u043a\u0438",
+    "app_label": "loan_requests"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "requesttype",
+    "name": "\u0422\u0438\u043f \u0437\u0430\u044f\u0432\u043a\u0438",
+    "app_label": "loan_requests"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "requesttypefield",
+    "name": "request type field",
+    "app_label": "loan_requests"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "client",
+    "name": "client",
+    "app_label": "provider"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "grant",
+    "name": "grant",
+    "app_label": "provider"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "accesstoken",
+    "name": "access token",
+    "app_label": "provider"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "refreshtoken",
+    "name": "refresh token",
+    "app_label": "provider"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "application",
+    "name": "application",
+    "app_label": "oauth2_provider"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "grant",
+    "name": "grant",
+    "app_label": "oauth2_provider"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "accesstoken",
+    "name": "access token",
+    "app_label": "oauth2_provider"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "refreshtoken",
+    "name": "refresh token",
+    "app_label": "oauth2_provider"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "model": "requestfieldchoice",
+    "name": "request field choice",
+    "app_label": "loan_requests"
+  },
+  "model": "contenttypes.contenttype"
+},
+{
+  "fields": {
+    "expire_date": "2015-02-20T11:11:18.273Z",
+    "session_data": "OThiMjU4N2U5N2Q5ZjBiZWZiMzAzYjk5ZjEwM2JiMWI5MjgzNjEwMTp7Il9hdXRoX3VzZXJfaGFzaCI6ImQzMDg3YTQ5ZDY5NGRlY2FjOWZmZmRmNjUzOWI2ZjgzZWUxYTdmMjIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjF9"
+  },
+  "model": "sessions.session",
+  "pk": "igb9t20mlivk5y8rk4y8nzabomjmtaaw"
+},
+{
+  "fields": {
+    "expire_date": "2015-02-25T01:21:04.655Z",
+    "session_data": "MjZhZjQ2YmViOWUzNGE3MTk4YTA2MWY1OTkzZWM1YzJkOWYyM2MzMjp7Il9hdXRoX3VzZXJfaGFzaCI6IjUwNjUxODgwNzZiY2E0NTZiOTc1OGYyNzY4YmNlM2MwZjliYzc1ODgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjR9"
+  },
+  "model": "sessions.session",
+  "pk": "llj5zgrw5vf8djvjupitzn7ioaqqwsq2"
+},
+{
+  "fields": {
+    "field_type": "inn",
+    "description": "",
+    "name": "inn",
+    "title": "\u0418\u041d\u041d"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 1
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "last_name",
+    "title": "\u0424\u0430\u043c\u0438\u043b\u0438\u044f"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 3
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "first_name",
+    "title": "\u0418\u043c\u044f"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 4
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "mid_name",
+    "title": "\u041e\u0442\u0447\u0435\u0441\u0442\u0432\u043e"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 5
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "foreign_passport_last_name",
+    "title": "\u0424\u0430\u043c\u0438\u043b\u0438\u044f \u0438\u0437 \u0437\u0430\u0433\u0440\u0430\u043d\u043f\u0430\u0441\u043f\u043e\u0440\u0442\u0430"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 6
+},
+{
+  "fields": {
+    "field_type": "date",
+    "description": "",
+    "name": "birth_date",
+    "title": "\u0414\u0430\u0442\u0430 \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 7
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "birth_place",
+    "title": "\u041c\u0435\u0441\u0442\u043e \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 8
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "citizenship",
+    "title": "\u0413\u0440\u0436\u0434\u0430\u043d\u0441\u0442\u0432\u043e"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 9
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "previous_name",
+    "title": "\u041f\u0440\u043e\u0448\u043b\u043e\u0435 \u0444\u0430\u043c\u0438\u043b\u0438\u044f \u0438 \u0438\u043c\u044f"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 10
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "gender",
+    "title": "\u041f\u043e\u043b"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 11
+},
+{
+  "fields": {
+    "field_type": "passport",
+    "description": "",
+    "name": "passport",
+    "title": "\u041f\u0430\u0441\u043f\u043e\u0440\u0442"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 12
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "driver_license",
+    "title": "\u0412\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u043e\u0435 \u0443\u0434\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u0435\u043d\u0438\u0435"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 13
+},
+{
+  "fields": {
+    "field_type": "passport",
+    "description": "",
+    "name": "foreign_passport",
+    "title": "\u0417\u0430\u0433\u0440\u0430\u043d\u043f\u0430\u0441\u043f\u043e\u0440\u0442"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 14
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "voen_bilet",
+    "title": "\u0412\u043e\u0435\u043d\u043d\u044b\u0439 \u0431\u0438\u043b\u0435\u0442"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 15
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "snils",
+    "title": "\u0421\u041d\u0418\u041b\u0421"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 16
+},
+{
+  "fields": {
+    "field_type": "phone",
+    "description": "",
+    "name": "phone_mobile",
+    "title": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0439"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 17
+},
+{
+  "fields": {
+    "field_type": "phone",
+    "description": "",
+    "name": "phone_home",
+    "title": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0439"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 18
+},
+{
+  "fields": {
+    "field_type": "phone",
+    "description": "",
+    "name": "phone_work",
+    "title": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d \u0440\u0430\u0431\u043e\u0447\u0438\u0439"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 19
+},
+{
+  "fields": {
+    "field_type": "text",
+    "description": "",
+    "name": "address_reg",
+    "title": "\u0410\u0434\u0440\u0435\u0441 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 20
+},
+{
+  "fields": {
+    "field_type": "text",
+    "description": "",
+    "name": "address",
+    "title": "\u0424\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u0434\u0440\u0435\u0441"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 21
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "education",
+    "title": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 22
+},
+{
+  "fields": {
+    "field_type": "boolean",
+    "description": "",
+    "name": "is_student",
+    "title": "\u0421\u0442\u0443\u0434\u0435\u043d\u0442"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 23
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "family_status",
+    "title": "\u0421\u0435\u043c\u0435\u0439\u043d\u043e\u0435 \u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 24
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "work_place",
+    "title": "\u041c\u0435\u0441\u0442\u043e \u0440\u0430\u0431\u043e\u0442\u044b"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 25
+},
+{
+  "fields": {
+    "field_type": "inn",
+    "description": "",
+    "name": "inn_org",
+    "title": "\u0418\u041d\u041d \u043e\u0433\u0440\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 26
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "ogrn_prg",
+    "title": "\u041e\u0413\u0420\u041d \u043e\u0433\u0440\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 27
+},
+{
+  "fields": {
+    "field_type": "text",
+    "description": "",
+    "name": "address_jur_org",
+    "title": "\u042e\u0440 \u0430\u0434\u0440\u0435\u0441 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 28
+},
+{
+  "fields": {
+    "field_type": "text",
+    "description": "",
+    "name": "address_org",
+    "title": "\u0424\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u0434\u0440\u0435\u0441 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 29
+},
+{
+  "fields": {
+    "field_type": "phone",
+    "description": "",
+    "name": "phone_org",
+    "title": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 30
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "car_type",
+    "title": "\u0422\u0438\u043f \u0430\u0432\u0442\u043e"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 31
+},
+{
+  "fields": {
+    "field_type": "float",
+    "description": "",
+    "name": "first_payment",
+    "title": "\u041f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0437\u043d\u043e\u0441 (\u0440\u0443\u0431)"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 32
+},
+{
+  "fields": {
+    "field_type": "string",
+    "description": "",
+    "name": "realty_type",
+    "title": "\u0422\u0438\u043f \u043d\u0435\u0434\u0432\u0438\u0436\u0438\u043c\u043e\u0441\u0442\u0438"
+  },
+  "model": "loan_requests.requestfield",
+  "pk": 33
+},
+{
+  "fields": {
+    "field": 33,
+    "text": "\u043d\u043e\u0432\u043e\u0441\u0442\u0440\u043e\u0439\u043a\u0430"
+  },
+  "model": "loan_requests.requestfieldchoice",
+  "pk": 1
+},
+{
+  "fields": {
+    "field": 33,
+    "text": "\u0432\u0442\u043e\u0440\u0438\u0447\u043a\u0430"
+  },
+  "model": "loan_requests.requestfieldchoice",
+  "pk": 2
+},
+{
+  "fields": {
+    "field": 33,
+    "text": "\u0443\u0447\u0430\u0441\u0442\u043e\u043a"
+  },
+  "model": "loan_requests.requestfieldchoice",
+  "pk": 3
+},
+{
+  "fields": {
+    "field": 33,
+    "text": "\u0434\u043e\u043c"
+  },
+  "model": "loan_requests.requestfieldchoice",
+  "pk": 4
+},
+{
+  "fields": {
+    "field": 31,
+    "text": "\u043d\u043e\u0432\u0430\u044f \u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f"
+  },
+  "model": "loan_requests.requestfieldchoice",
+  "pk": 5
+},
+{
+  "fields": {
+    "field": 31,
+    "text": "\u043d\u043e\u0432\u0430\u044f \u0438\u043d\u043e\u043c\u0430\u0440\u043a\u0430"
+  },
+  "model": "loan_requests.requestfieldchoice",
+  "pk": 6
+},
+{
+  "fields": {
+    "field": 31,
+    "text": "\u043f\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u043d\u0430\u044f \u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u0430\u044f"
+  },
+  "model": "loan_requests.requestfieldchoice",
+  "pk": 7
+},
+{
+  "fields": {
+    "field": 31,
+    "text": "\u043f\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u043d\u0430\u044f \u0438\u043d\u043e\u043c\u0430\u0440\u043a\u0430"
+  },
+  "model": "loan_requests.requestfieldchoice",
+  "pk": 8
+},
+{
+  "fields": {
+    "field": 11,
+    "text": "\u043c\u0443\u0436\u0441\u043a\u043e\u0439"
+  },
+  "model": "loan_requests.requestfieldchoice",
+  "pk": 9
+},
+{
+  "fields": {
+    "field": 11,
+    "text": "\u0436\u0435\u043d\u0441\u043a\u0438\u0439"
+  },
+  "model": "loan_requests.requestfieldchoice",
+  "pk": 10
+},
+{
+  "fields": {
+    "title": "\u0410\u0432\u0442\u043e\u043a\u0440\u0435\u0434\u0438\u0442"
+  },
+  "model": "loan_requests.requesttype",
+  "pk": 1
+},
+{
+  "fields": {
+    "title": "\u041f\u043e\u0442\u0440\u0435\u0431 \u043a\u0440\u0435\u0434\u0438\u0442"
+  },
+  "model": "loan_requests.requesttype",
+  "pk": 2
+},
+{
+  "fields": {
+    "title": "\u0418\u043f\u043e\u0442\u0435\u043a\u0430"
+  },
+  "model": "loan_requests.requesttype",
+  "pk": 3
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 3,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 3
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 4,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 4
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 5,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 5
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 6,
+    "request_type": 1,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 6
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 7,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 7
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 8,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 8
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 9,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 9
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 10,
+    "request_type": 1,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 10
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 11,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 11
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 12,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 12
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 1,
+    "request_type": 1,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 13
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 13,
+    "request_type": 1,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 14
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 14,
+    "request_type": 1,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 15
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 15,
+    "request_type": 1,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 16
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 16,
+    "request_type": 1,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 17
+},
+{
+  "fields": {
+    "field_group": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "field": 17,
+    "request_type": 1,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 18
+},
+{
+  "fields": {
+    "field_group": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "field": 18,
+    "request_type": 1,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 19
+},
+{
+  "fields": {
+    "field_group": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "field": 19,
+    "request_type": 1,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 20
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 20,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 21
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 21,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 22
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 22,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 23
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 23,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 24
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 24,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 25
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 25,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 26
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 26,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 27
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 27,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 28
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 28,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 29
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 29,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 30
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 30,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 31
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 31,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 32
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 32,
+    "request_type": 1,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 33
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 3,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 34
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 4,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 35
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 5,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 36
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 6,
+    "request_type": 2,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 37
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 7,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 38
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 8,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 39
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 9,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 40
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 10,
+    "request_type": 2,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 41
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 11,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 42
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 12,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 43
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 1,
+    "request_type": 2,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 44
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 13,
+    "request_type": 2,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 45
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 14,
+    "request_type": 2,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 46
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 15,
+    "request_type": 2,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 47
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 16,
+    "request_type": 2,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 48
+},
+{
+  "fields": {
+    "field_group": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "field": 17,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 49
+},
+{
+  "fields": {
+    "field_group": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "field": 18,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 50
+},
+{
+  "fields": {
+    "field_group": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "field": 19,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 51
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 20,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 52
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 21,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 53
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 22,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 54
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 23,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 55
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 24,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 56
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 25,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 57
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 26,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 58
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 27,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 59
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 28,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 60
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 29,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 61
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 30,
+    "request_type": 2,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 62
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 3,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 63
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 4,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 64
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 5,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 65
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 6,
+    "request_type": 3,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 66
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 7,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 67
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 8,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 68
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 9,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 69
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 10,
+    "request_type": 3,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 70
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 11,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 71
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 12,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 72
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 1,
+    "request_type": 3,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 73
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 13,
+    "request_type": 3,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 74
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 14,
+    "request_type": 3,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 75
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 15,
+    "request_type": 3,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 76
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 16,
+    "request_type": 3,
+    "required": false
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 77
+},
+{
+  "fields": {
+    "field_group": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "field": 17,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 78
+},
+{
+  "fields": {
+    "field_group": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "field": 18,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 79
+},
+{
+  "fields": {
+    "field_group": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "field": 19,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 80
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 20,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 81
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 21,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 82
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 22,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 83
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 23,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 84
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 24,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 85
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 25,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 86
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 26,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 87
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 27,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 88
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 28,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 89
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 29,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 90
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 30,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 91
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 33,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 92
+},
+{
+  "fields": {
+    "field_group": "",
+    "field": 32,
+    "request_type": 3,
+    "required": true
+  },
+  "model": "loan_requests.requesttypefield",
+  "pk": 93
+},
+{
+  "fields": {
+    "codename": "view_all_requests",
+    "name": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u0432\u0441\u0435\u0445 \u0437\u0430\u044f\u0432\u043e\u043a",
+    "content_type": [
+      "loan_requests",
+      "request"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "edit_all_requests",
+    "name": "\u0420\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0432\u0441\u0435\u0445 \u0437\u0430\u044f\u0432\u043e\u043a",
+    "content_type": [
+      "loan_requests",
+      "request"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_all_requests",
+    "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u0432\u0441\u0435\u0445 \u0437\u0430\u044f\u0432\u043e\u043a",
+    "content_type": [
+      "loan_requests",
+      "request"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_logentry",
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_logentry",
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_logentry",
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_permission",
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_permission",
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_permission",
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_group",
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_group",
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_group",
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_user",
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_user",
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_user",
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_contenttype",
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_contenttype",
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_contenttype",
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_session",
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_session",
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_session",
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_requestfield",
+    "name": "Can add \u041f\u043e\u043b\u0435 \u0437\u0430\u044f\u0432\u043a\u0438",
+    "content_type": [
+      "loan_requests",
+      "requestfield"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_requestfield",
+    "name": "Can change \u041f\u043e\u043b\u0435 \u0437\u0430\u044f\u0432\u043a\u0438",
+    "content_type": [
+      "loan_requests",
+      "requestfield"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_requestfield",
+    "name": "Can delete \u041f\u043e\u043b\u0435 \u0437\u0430\u044f\u0432\u043a\u0438",
+    "content_type": [
+      "loan_requests",
+      "requestfield"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_requesttype",
+    "name": "Can add \u0422\u0438\u043f \u0437\u0430\u044f\u0432\u043a\u0438",
+    "content_type": [
+      "loan_requests",
+      "requesttype"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_requesttype",
+    "name": "Can change \u0422\u0438\u043f \u0437\u0430\u044f\u0432\u043a\u0438",
+    "content_type": [
+      "loan_requests",
+      "requesttype"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_requesttype",
+    "name": "Can delete \u0422\u0438\u043f \u0437\u0430\u044f\u0432\u043a\u0438",
+    "content_type": [
+      "loan_requests",
+      "requesttype"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_requesttypefield",
+    "name": "Can add request type field",
+    "content_type": [
+      "loan_requests",
+      "requesttypefield"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_requesttypefield",
+    "name": "Can change request type field",
+    "content_type": [
+      "loan_requests",
+      "requesttypefield"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_requesttypefield",
+    "name": "Can delete request type field",
+    "content_type": [
+      "loan_requests",
+      "requesttypefield"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_request",
+    "name": "Can add \u0417\u0430\u044f\u0432\u043a\u0430",
+    "content_type": [
+      "loan_requests",
+      "request"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_request",
+    "name": "Can change \u0417\u0430\u044f\u0432\u043a\u0430",
+    "content_type": [
+      "loan_requests",
+      "request"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_request",
+    "name": "Can delete \u0417\u0430\u044f\u0432\u043a\u0430",
+    "content_type": [
+      "loan_requests",
+      "request"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_client",
+    "name": "Can add client",
+    "content_type": [
+      "provider",
+      "client"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_client",
+    "name": "Can change client",
+    "content_type": [
+      "provider",
+      "client"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_client",
+    "name": "Can delete client",
+    "content_type": [
+      "provider",
+      "client"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_grant",
+    "name": "Can add grant",
+    "content_type": [
+      "provider",
+      "grant"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_grant",
+    "name": "Can change grant",
+    "content_type": [
+      "provider",
+      "grant"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_grant",
+    "name": "Can delete grant",
+    "content_type": [
+      "provider",
+      "grant"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_accesstoken",
+    "name": "Can add access token",
+    "content_type": [
+      "provider",
+      "accesstoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_accesstoken",
+    "name": "Can change access token",
+    "content_type": [
+      "provider",
+      "accesstoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_accesstoken",
+    "name": "Can delete access token",
+    "content_type": [
+      "provider",
+      "accesstoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_refreshtoken",
+    "name": "Can add refresh token",
+    "content_type": [
+      "provider",
+      "refreshtoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_refreshtoken",
+    "name": "Can change refresh token",
+    "content_type": [
+      "provider",
+      "refreshtoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_refreshtoken",
+    "name": "Can delete refresh token",
+    "content_type": [
+      "provider",
+      "refreshtoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_application",
+    "name": "Can add application",
+    "content_type": [
+      "oauth2_provider",
+      "application"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_application",
+    "name": "Can change application",
+    "content_type": [
+      "oauth2_provider",
+      "application"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_application",
+    "name": "Can delete application",
+    "content_type": [
+      "oauth2_provider",
+      "application"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_grant",
+    "name": "Can add grant",
+    "content_type": [
+      "oauth2_provider",
+      "grant"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_grant",
+    "name": "Can change grant",
+    "content_type": [
+      "oauth2_provider",
+      "grant"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_grant",
+    "name": "Can delete grant",
+    "content_type": [
+      "oauth2_provider",
+      "grant"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_accesstoken",
+    "name": "Can add access token",
+    "content_type": [
+      "oauth2_provider",
+      "accesstoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_accesstoken",
+    "name": "Can change access token",
+    "content_type": [
+      "oauth2_provider",
+      "accesstoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_accesstoken",
+    "name": "Can delete access token",
+    "content_type": [
+      "oauth2_provider",
+      "accesstoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_refreshtoken",
+    "name": "Can add refresh token",
+    "content_type": [
+      "oauth2_provider",
+      "refreshtoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_refreshtoken",
+    "name": "Can change refresh token",
+    "content_type": [
+      "oauth2_provider",
+      "refreshtoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_refreshtoken",
+    "name": "Can delete refresh token",
+    "content_type": [
+      "oauth2_provider",
+      "refreshtoken"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "add_requestfieldchoice",
+    "name": "Can add request field choice",
+    "content_type": [
+      "loan_requests",
+      "requestfieldchoice"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "change_requestfieldchoice",
+    "name": "Can change request field choice",
+    "content_type": [
+      "loan_requests",
+      "requestfieldchoice"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "codename": "delete_requestfieldchoice",
+    "name": "Can delete request field choice",
+    "content_type": [
+      "loan_requests",
+      "requestfieldchoice"
+    ]
+  },
+  "model": "auth.permission"
+},
+{
+  "fields": {
+    "name": "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0438 \u0431\u0430\u043d\u043a\u0430",
+    "permissions": [
+      [
+        "delete_all_requests",
+        "loan_requests",
+        "request"
+      ],
+      [
+        "edit_all_requests",
+        "loan_requests",
+        "request"
+      ],
+      [
+        "view_all_requests",
+        "loan_requests",
+        "request"
+      ]
+    ]
+  },
+  "model": "auth.group"
+},
+{
+  "fields": {
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": "2015-02-11T01:21:04.654Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$15000$GWdfR8UbLSBk$7eYVX5q32Q/V6BytjRhAVS3VQVkzHRp3NgtQOn27/4o=",
+    "email": "nobody@example.com",
+    "date_joined": "2015-02-11T01:14:58.204Z"
+  },
+  "model": "auth.user"
+},
+{
+  "fields": {
+    "username": "banker",
+    "first_name": "",
+    "last_name": "",
+    "is_active": true,
+    "is_superuser": false,
+    "is_staff": false,
+    "last_login": "2015-02-11T01:21:19Z",
+    "groups": [
+      [
+        "\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0438 \u0431\u0430\u043d\u043a\u0430"
+      ]
+    ],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$15000$XtpVuZjvPOCc$Jtp7+HxAmdG9LZawZvRA38eXlplI8aB8VSD2aD/sGMw=",
+    "email": "",
+    "date_joined": "2015-02-11T01:21:19Z"
+  },
+  "model": "auth.user"
+},
+{
+  "fields": {
+    "username": "user1",
+    "first_name": "",
+    "last_name": "",
+    "is_active": true,
+    "is_superuser": false,
+    "is_staff": false,
+    "last_login": "2015-02-11T01:21:36.128Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$15000$wtNbM0FhjwxO$hDpbEk6sP09IYd1HdPIdAfqeX+HNjB/kLGgTuq+qnyM=",
+    "email": "",
+    "date_joined": "2015-02-11T01:21:36.129Z"
+  },
+  "model": "auth.user"
+},
+{
+  "fields": {
+    "username": "user2",
+    "first_name": "",
+    "last_name": "",
+    "is_active": true,
+    "is_superuser": false,
+    "is_staff": false,
+    "last_login": "2015-02-11T01:21:46.865Z",
+    "groups": [],
+    "user_permissions": [],
+    "password": "pbkdf2_sha256$15000$KXOd0v4gQ8UB$G74RlUJ2vDYK4DKKXva/Tvn8YkyJaZ2crk6835y17xw=",
+    "email": "",
+    "date_joined": "2015-02-11T01:21:46.865Z"
+  },
+  "model": "auth.user"
+},
+{
+  "fields": {
+    "redirect_uris": "",
+    "name": "",
+    "client_type": "confidential",
+    "user": [
+      "admin"
+    ],
+    "client_id": "-jx5wwa5UR=iFIw3lajNOw37WEXP7zLq8nipZM;J",
+    "client_secret": "VX5x?JR2Zo4ntR_cQhTy@aQKEK0dtl!qKCbl=RSHDk:KUCVPtI2p0TMxkScnnx3tyZ;V4;A9LNWgg5UB-ew31AuCbJ8WvbUEDhGvAy-k?GCDeBmCcrwXDX@F=6U2-Eth",
+    "authorization_grant_type": "password"
+  },
+  "model": "oauth2_provider.application",
+  "pk": 2
+},
+{
+  "fields": {
+    "redirect_uris": "",
+    "name": "",
+    "client_type": "confidential",
+    "user": [
+      "banker"
+    ],
+    "client_id": "9dGsQHHp8RZeKNc7y-mX9ghOOtmJylAr1fWM.JK-",
+    "client_secret": "ci!9T@5-J5pAoa:-!soUf2nd@gu.rLwceHe;DBWAcSRWMaih--E0KlMxD!rfw8W2tIA4XX=2lun?b_@:TDEGsWJ7KkVkmzHRb.flTBYQ4KARZakVz-sgoQ59RO4ktscS",
+    "authorization_grant_type": "password"
+  },
+  "model": "oauth2_provider.application",
+  "pk": 3
+},
+{
+  "fields": {
+    "redirect_uris": "",
+    "name": "",
+    "client_type": "confidential",
+    "user": [
+      "user1"
+    ],
+    "client_id": "0i?Lg0Vd4@jdW76SN9K8RxG?a2h.PgnZV3EZ7rRA",
+    "client_secret": "@vqIADCpA:3HciWQpP6se8-84V=B-xPQtu78haI.-oa?2zv9-EPoxDX.TGJH2N4oHJWfezNAaydlyWXd:;JFo=Ieax9JneiwLlx4JpGdJT!Jxix3?dvHtrSsobGhT26J",
+    "authorization_grant_type": "password"
+  },
+  "model": "oauth2_provider.application",
+  "pk": 4
+},
+{
+  "fields": {
+    "redirect_uris": "",
+    "name": "",
+    "client_type": "confidential",
+    "user": [
+      "user2"
+    ],
+    "client_id": "O2u.ZgLR7CQcRuCqgcH-JKCDJ_rgUR4;qUCFo36E",
+    "client_secret": "j-LsJ2QtUklYJo40kx480du7MWo0DK255UN@dc3PKKJwongolyRgx9AnQZTZf1Xg7Batn9r9rB:LotABpstk-06gNwJ7OOW5OUcy7QLLs!Py@7tQ?!6bJPsNh@wnUbQj",
+    "authorization_grant_type": "password"
+  },
+  "model": "oauth2_provider.application",
+  "pk": 5
+},
+{
+  "fields": {
+    "content": "{\"last_name\": {\"type\": \"unicode\", \"value\": \"\\u0418\\u0432\\u0430\\u043d\\u043e\\u0432\"}, \"citizenship\": {\"type\": \"unicode\", \"value\": \"\\u0420\\u0424\"}, \"phone_org\": {\"type\": \"unicode\", \"value\": \"12334\"}, \"birth_place\": {\"type\": \"unicode\", \"value\": \"\\u0433\\u043e\\u0440\\u043e\\u0434 \\u041c\\u0443\\u0440\\u043c\\u0430\\u043d\\u0441\\u043a\"}, \"education\": {\"type\": \"unicode\", \"value\": \"\\u0432\\u044b\\u0441\\u0448\\u0435\\u0435\"}, \"first_payment\": {\"type\": \"float\", \"value\": 1000.0}, \"first_name\": {\"type\": \"unicode\", \"value\": \"\\u0412\\u0430\\u0441\\u0438\\u043b\\u0438\\u0439\"}, \"address_reg\": {\"type\": \"unicode\", \"value\": \"\\u0430\\u0434\\u0440\\u0435\\u0441\"}, \"family_status\": {\"type\": \"unicode\", \"value\": \"\\u0445\\u043e\\u043b\\u043e\\u0441\\u0442\"}, \"passport\": {\"type\": \"unicode\", \"value\": \"01234567\"}, \"work_place\": {\"type\": \"unicode\", \"value\": \"\\u0437\\u0430\\u0432\\u043e\\u0434\"}, \"is_student\": {\"type\": \"bool\", \"value\": false}, \"address_org\": {\"type\": \"unicode\", \"value\": \"\\u0443\\u043b\\u0438\\u0446\\u0430 \\u041b\\u0435\\u043d\\u0438\\u043d\\u0430\"}, \"address\": {\"type\": \"unicode\", \"value\": \"\\u041c\\u043e\\u0441\\u043a\\u0432\\u0430\"}, \"car_type\": {\"type\": \"unicode\", \"value\": \"\\u043d\\u043e\\u0432\\u0430\\u044f \\u0438\\u043d\\u043e\\u043c\\u0430\\u0440\\u043a\\u0430\"}, \"address_jur_org\": {\"type\": \"unicode\", \"value\": \"\\u0443\\u043b\\u0438\\u0446\\u0430 \\u041b\\u0435\\u043d\\u0438\\u043d\\u0430\"}, \"gender\": {\"type\": \"unicode\", \"value\": \"\\u043c\\u0443\\u0436\\u0441\\u043a\\u043e\\u0439\"}, \"ogrn_prg\": {\"type\": \"unicode\", \"value\": \"1234\"}, \"phone_mobile\": {\"type\": \"unicode\", \"value\": \"+7 900 1234567\"}, \"birth_date\": {\"type\": \"date\", \"value\": \"1980-01-01\"}, \"inn_org\": {\"type\": \"unicode\", \"value\": \"1234567890\"}, \"mid_name\": {\"type\": \"unicode\", \"value\": \"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0435\\u0432\\u0438\\u0447\"}}",
+    "request_type": 1,
+    "user": [
+      "user1"
+    ]
+  },
+  "model": "loan_requests.request",
+  "pk": 6
+},
+{
+  "fields": {
+    "action_flag": 1,
+    "action_time": "2015-02-11T01:21:19.126Z",
+    "object_repr": "banker",
+    "object_id": "5",
+    "change_message": "",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ]
+  },
+  "model": "admin.logentry",
+  "pk": 60
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-02-11T01:21:27.876Z",
+    "object_repr": "banker",
+    "object_id": "5",
+    "change_message": "\u0418\u0437\u043c\u0435\u043d\u0435\u043d groups.",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ]
+  },
+  "model": "admin.logentry",
+  "pk": 61
+},
+{
+  "fields": {
+    "action_flag": 1,
+    "action_time": "2015-02-11T01:21:36.223Z",
+    "object_repr": "user1",
+    "object_id": "6",
+    "change_message": "",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ]
+  },
+  "model": "admin.logentry",
+  "pk": 62
+},
+{
+  "fields": {
+    "action_flag": 1,
+    "action_time": "2015-02-11T01:21:46.971Z",
+    "object_repr": "user2",
+    "object_id": "7",
+    "change_message": "",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ]
+  },
+  "model": "admin.logentry",
+  "pk": 63
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-02-11T01:28:05.273Z",
+    "object_repr": "\u0422\u0438\u043f \u0430\u0432\u0442\u043e",
+    "object_id": "31",
+    "change_message": "\u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d \u0412\u0430\u0440\u0438\u0430\u043d\u0442 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u043b\u044f \"\u043d\u043e\u0432\u0430\u044f \u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f\". \u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d \u0412\u0430\u0440\u0438\u0430\u043d\u0442 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u043b\u044f \"\u043d\u043e\u0432\u0430\u044f \u0438\u043d\u043e\u043c\u0430\u0440\u043a\u0430\". \u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d \u0412\u0430\u0440\u0438\u0430\u043d\u0442 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u043b\u044f \"\u043f\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u043d\u0430\u044f \u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u0430\u044f\". \u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d \u0412\u0430\u0440\u0438\u0430\u043d\u0442 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u043b\u044f \"\u043f\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u043d\u0430\u044f \u0438\u043d\u043e\u043c\u0430\u0440\u043a\u0430\".",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "loan_requests",
+      "requestfield"
+    ]
+  },
+  "model": "admin.logentry",
+  "pk": 64
+},
+{
+  "fields": {
+    "action_flag": 2,
+    "action_time": "2015-02-11T01:29:26.215Z",
+    "object_repr": "\u041f\u043e\u043b",
+    "object_id": "11",
+    "change_message": "\u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d \u0412\u0430\u0440\u0438\u0430\u043d\u0442 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u043b\u044f \"\u043c\u0443\u0436\u0441\u043a\u043e\u0439\". \u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d \u0412\u0430\u0440\u0438\u0430\u043d\u0442 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u043b\u044f \"\u0436\u0435\u043d\u0441\u043a\u0438\u0439\".",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "loan_requests",
+      "requestfield"
+    ]
+  },
+  "model": "admin.logentry",
+  "pk": 65
+}
+]
