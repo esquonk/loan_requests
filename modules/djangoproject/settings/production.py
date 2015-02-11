@@ -5,8 +5,8 @@ from .common import *
 
 SITE_ROOT = '/srv/loan_requests'
 
-DEBUG = True
-TEMPLATE_DEBUG = True
+DEBUG = False
+TEMPLATE_DEBUG = False
 
 STATIC_ROOT = SITE_ROOT + '/static'
 
